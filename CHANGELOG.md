@@ -1,3 +1,7 @@
+# 3.35.1 (2025-11-19)
+
+* Switch from `glob` to `tinyglobby` to reduce transitive dependencies. ([#846]) (Ben McCann)
+
 # 3.35.0 (2023-12-21)
 
 * Upgrade `glob` to fix a security vulnerability in the `inflight` package. ([#822]) (Patrick Nappa)
@@ -574,3 +578,4 @@
 [#812]: https://github.com/alangpierce/sucrase/pull/812
 [#813]: https://github.com/alangpierce/sucrase/pull/813
 [#822]: https://github.com/alangpierce/sucrase/pull/822
+[#846]: https://github.com/alangpierce/sucrase/pull/846
